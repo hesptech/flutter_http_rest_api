@@ -13,7 +13,7 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   double? _width, _height;
   late HomeProvider homeProvider;
-  var countryList;
+  late Future<void> countryList;
 
   @override
   void initState() {

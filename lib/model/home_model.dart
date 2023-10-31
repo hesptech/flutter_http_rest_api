@@ -17,7 +17,7 @@ class HomeModel {
   }
 
   Map<String, dynamic> toJson() {
-    final Map<String, dynamic> data = Map<String, dynamic>();
+    final Map<String, dynamic> data = <String, dynamic>{};
     data['error'] = error;
     data['msg'] = msg;
     if (this.data != null) {
@@ -43,7 +43,7 @@ class Data {
   }
 
   Map<String, dynamic> toJson() {
-    final Map<String, dynamic> data = Map<String, dynamic>();
+    final Map<String, dynamic> data = <String, dynamic>{};
     data['iso2'] = iso2;
     data['iso3'] = iso3;
     data['country'] = country;
