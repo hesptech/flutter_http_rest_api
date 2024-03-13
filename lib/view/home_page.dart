@@ -1,6 +1,7 @@
-import 'package:flutter_http_rest_api/provider/home_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+
+import 'package:flutter_http_rest_api/provider/home_provider.dart';
 import 'package:shimmer/shimmer.dart';
 
 class HomePage extends StatefulWidget {
